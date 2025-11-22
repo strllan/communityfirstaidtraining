@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sydney First Aid & CPR | Courses Sydney</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span>☎ 02 8527 9797</span>
+        <span>|</span>
+        <span>✉ sydneyfirstaidandcpr@gmail.com</span>
+      </div>
+      <div class="top-bar-right">
+        <span>⏰ Mon–Fri: 9am – 5pm</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-circle">FA</div>
+        <div>
+          <div class="logo-text-main">SYDNEY</div>
+          <div class="logo-text-sub">FIRST AID &amp; CPR</div>
+        </div>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="locations.html">Locations</a>
+        <a href="contact.html">Contact</a>
+        <!-- Replace # with your Stripe/PayPal payment link later -->
+        <a href="contact.html">
+          <button class="btn-primary">Book Now</button>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-tagline">FAST | EASY | FUN</div>
+      <h1 class="hero-title">First Aid and CPR Courses Sydney</h1>
+      <p class="hero-subtitle">
+        Nationally recognised first aid and CPR training with same-day certificates.
+        Perfect for workplaces, students and community members.
+      </p>
+      <div class="hero-buttons">
+        <a href="contact.html">
+          <button class="btn-primary">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro section -->
+  <section class="section">
+    <div class="container">
+      <h2>Why train with Sydney First Aid &amp; CPR?</h2>
+      <p>
+        We offer small classes, friendly trainers and practical, hands-on skills that
+        give you the confidence to respond in an emergency. Our courses are aligned
+        with Australian Resuscitation Council guidelines and suitable for individuals,
+        workplaces and community groups.
+      </p>
+    </div>
+  </section>
+
+  <!-- Featured courses -->
+  <section class="section section-light">
+    <div class="container">
+      <h2>Popular Courses</h2>
+      <div class="card-grid">
+        <div class="card">
+          <span class="badge">HLTAID011</span>
+          <h3>Provide First Aid</h3>
+          <p>
+            The full first aid qualification covering common injuries, medical
+            emergencies, burns, bleeding, shock and more. Suitable for most workplaces.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="badge">HLTAID009</span>
+          <h3>Provide Cardiopulmonary Resuscitation (CPR)</h3>
+          <p>
+            Short CPR-only course covering DRSABCD, chest compressions, rescue
+            breaths and AED use. Ideal for annual refresher training.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="badge">CHILDCARE</span>
+          <h3>Childcare First Aid</h3>
+          <p>
+            First aid for educators and carers, with a focus on babies and children,
+            asthma, anaphylaxis and common childhood emergencies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="section">
+    <div class="container">
+      <h2>Ready to book your course?</h2>
+      <p>
+        Choose a location that suits you and complete our quick booking form. We’ll
+        email you confirmation, pre-course reading and everything you need to know for
+        the day.
+      </p>
+      <br />
+      <a href="locations.html" class="btn-primary">View Locations</a>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Sydney First Aid &amp; CPR. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
