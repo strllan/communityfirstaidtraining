@@ -8,8 +8,13 @@
 }
 
 body {
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+  font-family:
+    "Montserrat",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   color: #222;
   background-color: #ffffff;
   line-height: 1.5;
@@ -137,8 +142,14 @@ nav a.active {
   font-weight: 600;
 }
 
+nav a.btn-primary:hover,
+nav a.btn-primary.active {
+  color: #fff;
+}
+
 /* Button style */
 .btn-primary {
+  display: inline-block;
   background-color: #11a5e6;
   color: #fff;
   border: none;
@@ -147,7 +158,9 @@ nav a.active {
   font-weight: 600;
   cursor: pointer;
   font-size: 0.95rem;
-  transition: background-color 0.2s ease, transform 0.1s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
 }
 
 .btn-primary:hover {
@@ -209,7 +222,7 @@ nav a.active {
 .hero {
   position: relative;
   background: url("/images/first-aid.avif") center/cover no-repeat;
-  height: 420px; 
+  height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,7 +233,7 @@ nav a.active {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .hero-content {
@@ -240,7 +253,6 @@ nav a.active {
   font-size: 20px;
   font-weight: 400;
 }
-
 
 /* =========================================================
    SECTIONS / GENERIC
@@ -390,8 +402,13 @@ textarea {
 
 .footer-content {
   text-align: center;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+  font-family:
+    "Montserrat",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   color: #333;
 }
 
@@ -498,4 +515,3 @@ textarea {
     width: 30px;
   }
 }
-
