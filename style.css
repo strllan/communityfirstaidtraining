@@ -480,6 +480,20 @@ nav a.btn-primary.active {
   box-shadow: var(--shadow-soft);
 }
 
+.form-panel {
+  max-width: 760px;
+  margin-top: 28px;
+  padding: 30px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(229, 215, 215, 0.8);
+  box-shadow: var(--shadow-soft);
+}
+
+.booking-form-panel {
+  max-width: 780px;
+}
+
 .form-group {
   margin-bottom: 16px;
 }
@@ -523,7 +537,8 @@ textarea {
 
 .contact-panel {
   display: grid;
-  gap: 18px;
+  gap: 22px;
+  align-content: start;
 }
 
 .contact-panel h2 {
@@ -536,14 +551,48 @@ textarea {
 
 .contact-list {
   display: grid;
-  gap: 10px;
+  gap: 18px;
+}
+
+.contact-item {
+  display: grid;
+  gap: 6px;
+}
+
+.contact-label {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #374151;
+}
+
+.contact-value {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+  overflow-wrap: anywhere;
+}
+
+.contact-email {
+  font-size: 0.98rem;
 }
 
 .info-block {
-  padding: 18px 20px;
+  display: grid;
+  gap: 10px;
+  padding: 22px 20px;
   border-radius: 14px;
   background: var(--color-surface-muted);
   border: 1px solid rgba(185, 28, 28, 0.08);
+}
+
+.info-heading {
+  font-weight: 700;
+  color: #374151;
+}
+
+.info-heading span {
+  font-weight: 500;
+  color: var(--color-muted);
 }
 
 .site-footer {
@@ -715,6 +764,10 @@ textarea {
   }
 
   .form-grid > div {
+    padding: 24px;
+  }
+
+  .form-panel {
     padding: 24px;
   }
 }
