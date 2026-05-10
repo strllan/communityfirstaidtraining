@@ -351,9 +351,10 @@ nav a.btn-primary.active {
 
 .hero-title,
 .hero-content h1 {
-  font-size: clamp(2.15rem, 4.4vw, 3.85rem);
+  font-size: clamp(1.95rem, 4vw, 3.3rem);
+  font-weight: 700;
   line-height: 1.05;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   margin-bottom: 18px;
   max-width: 720px;
 }
